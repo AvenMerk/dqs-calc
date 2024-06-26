@@ -1,0 +1,10 @@
+directories:
+  output: dist_electron
+  buildResources: build
+  app: dist_electron/bundled
+files:
+  - filter:
+      - '**'
+extends: null
+productName: DQS калькулятор
+electronVersion: 13.6.9
